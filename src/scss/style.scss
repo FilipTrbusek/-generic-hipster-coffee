@@ -1,3 +1,5 @@
+@import 'variables';
+
 h1 {
     color: red;
 }
@@ -8,6 +10,78 @@ body {
     padding: 0;
     font-size: 16px;
     font-family: 'Oswald', sans-serif, Tahoma, Arial;
-    background-color: yellow;
+    background-color: white;
 }
+
+.navbar {
+    background-color: $navbar;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20rem;
+
+    &__section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    &__logo {
+        height: 100px;
+        width: auto;
+        display: flex;
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+
+        li a {
+        color: $navbar-font-color;
+        text-decoration: none;
+    }
+}
+
+    &__link {
+        padding-left: 50px;
+    }
+
+    .navbar__link--active {
+        color: $navbar-font-active-link;
+    }
+}
+
+
+
+ 
+
+
+
+
+//   &__navigation {
+//     display: flex;
+//     align-items: center;
+//     list-style-type: none;
+//   }
+
+//   &__link--active {
+//     color: $navbar-font-active-link;
+//   }
+// }
+
+// &__navigation a {
+//       padding-left: 50px;
+//       color: $navbar-font;
+//       text-decoration: none;
+//       list-style-type: none;
+//     }
+
+  
+
+    
+
+    
+  
 
