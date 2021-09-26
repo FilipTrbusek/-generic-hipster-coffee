@@ -53,6 +53,16 @@ body {
     }
 }
 
+.content {
+    margin: 0 21.5rem;
+
+    &__mainHeading {
+        color: $text-color;
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+}
+
 
 
  
