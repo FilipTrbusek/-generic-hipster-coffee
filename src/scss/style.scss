@@ -1,9 +1,5 @@
 @import 'variables';
 
-h1 {
-    color: red;
-}
-
 body {
     box-sizing: border-box;
     margin: 0;
@@ -61,8 +57,49 @@ body {
         text-transform: uppercase;
         font-weight: 200;
     }
+
+    &__subHeading {
+        color: $text-color;
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+
+    
 }
 
+.footer {
+    background-color: $footer-background-color;
+    margin-bottom: 0;
+
+    &__links {
+    margin: 0 35rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: $footer-links-color;
+    list-style-type: none;
+    padding: 4rem 0 2rem 0;
+    }
+
+    &__hashText {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color: $footer-hashTag-color;
+    }
+
+    &__socialMedia {
+        display: flex;
+        justify-content: center;
+        color: $footer-hashTag-color;
+        padding-bottom: 2.5rem;
+    }
+
+    &__socialLink {
+        color: $footer-links-color;
+        text-decoration: none;
+    }
+}
 
 
  
