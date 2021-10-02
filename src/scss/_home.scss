@@ -1,0 +1,30 @@
+.content__wrapper {
+        display: flex;
+        width: 57%;
+        flex-direction: column;
+    }
+
+    .restaurantInfo {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 200;
+
+        h2 {
+            font-weight: 200;
+        }
+    }
+
+    .googleMap {
+        position: relative;
+    }
+
+    iframe {
+        width: 100%;
+        position: absolute;
+        margin-bottom: 400px;
+
+    }
+
+    .footer {
+        margin-top: 410px;
+    }
